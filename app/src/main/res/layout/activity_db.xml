@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DBActivity">
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="User Name: "
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="20dp"
+        android:width="120dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_userNameDB"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="203dp"
+        android:layout_marginTop="15dp"
+        android:width="180dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_PasswordDB"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="203dp"
+        android:layout_marginTop="90dp"
+        android:width="180dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvUsername"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="51dp"
+        android:width="120dp"
+        android:text="Password: "
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tv_emailDB"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="206dp"
+        android:layout_marginTop="171dp"
+        android:width="180dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_firstNameDB"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="260dp"
+        android:width="180dp"
+        android:textSize="20dp"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tv_firstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_email"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="59dp"
+        android:width="120dp"
+        android:text="First Name: "
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tv_lastNameDB"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="344dp"
+        android:width="180dp"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tv_lastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_firstName"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="54dp"
+        android:width="120dp"
+        android:text="Last Name "
+        android:textSize="20dp"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvpassword"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="49dp"
+        android:width="120dp"
+        android:text="Email: "
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btn_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_lastName"
+        android:layout_marginTop="185dp"
+        android:layout_marginStart="45dp"
+        android:text="Save Data"
+        android:onClick="show"/>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_lastName"
+        android:layout_marginTop="185dp"
+        android:layout_marginStart="200dp"
+        android:text="Database"
+        android:onClick="back"/>
+
+</RelativeLayout>
